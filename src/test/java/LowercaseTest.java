@@ -1,3 +1,4 @@
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -5,12 +6,11 @@ import static org.junit.jupiter.api.Assertions.*;
 class LowercaseTest {
 
     @Test
-        //  @DisplayName("Test")
+    @DisplayName("Test")
     void toLowerCase() {
 
-        //     Main mains = new Main();
-
         Lowercase lowercase = new Lowercase();
+
 
         String str = "SECONDASSIGNMENT";
         String res = str.toLowerCase();
@@ -20,7 +20,6 @@ class LowercaseTest {
         System.out.println(res);
 
     }
-
 
 }
 

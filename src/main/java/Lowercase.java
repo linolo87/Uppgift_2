@@ -6,8 +6,6 @@ public class Lowercase {
     public String runtest(String res) {
         return res;
 
-
     }
-
 
 }
