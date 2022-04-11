@@ -15,8 +15,8 @@ class LowercaseTest {
         String str = "SECONDASSIGNMENT";
         String res = str.toLowerCase();
         assertEquals("secondassignment", lowercase.runtest(res));
-        assertNotNull(res);
 
+        System.out.println("Using different classes");
         System.out.println(res);
 
     }
